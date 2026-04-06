@@ -1,6 +1,3 @@
-function add(a, b) {
-return a + b;
-}
 function subtract(a, b) {
 return a - b;
 }
@@ -13,6 +10,6 @@ return a / b;
 }
 function add(a, b) {
 console.log("Adding:", a, b);
-return a + b + 10;
+return a + b;
 }
 module.exports = { add, subtract, multiply, divide };
